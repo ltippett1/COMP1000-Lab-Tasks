@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main () {
+
+    for (int i = 1; i <= 10; i++) {
+        for (int j = 1; j <= 10; j++) {
+            std::cout << i * j << "\t"; //Print multiplcation table
+        }
+        std::cout << std::endl; //Move to next line after the row 
+    }
+
+    return 0;
+}
