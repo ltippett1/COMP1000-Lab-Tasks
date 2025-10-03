@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main () {
+
+    int num1 = 1;
+
+    do {
+        std::cout << "Enter a Number:";
+        std::cin >> num1;
+
+    } while (num1>= 0);
+       
+    std::cout << "Your Number is Negative!";
+
+    return 0;
+}
