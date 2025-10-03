@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main () {
+
+    int num1 = 1;
+
+    while (num1 >= 0) {
+        std::cout << "Enter a number:";
+        std::cin >> num1;
+    }
+    //Allows users to enter a number but it will stop if they enter a negative number
+    return 0;
+}
