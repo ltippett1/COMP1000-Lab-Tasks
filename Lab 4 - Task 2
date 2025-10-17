@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+#include <cstring>
+
+int main () {
+
+string inital = "Hello";
+string surname = "World";
+
+string fullname = inital + surname;
+
+cout << "Concatenate:" << fullname << endl;
+cout << "Length of string:" << fullname.length() << endl;
+
+return 0;
+}
