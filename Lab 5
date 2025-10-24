@@ -1,0 +1,59 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+void addTwoNUmbers (int a, int b) {
+
+    int sum = a + b;
+
+    cout << "Sum:" << sum << endl;
+}
+
+void swapNumbers (int c, int d) {
+
+    int temp = c;
+    c = d;
+    d = temp;
+
+        cout << "Before swap:" << c << endl;
+        cout << "After swap:" << d << endl;
+}
+
+void calculateDistance (float x1, float x2, float y1, float y2) {
+
+    float distance = sqrt((pow(x2 - x1, 2)) + (pow(y2 - y1, 2)));
+
+    cout << "Euclidean distance:" << distance << endl;
+}
+
+void incrementCounter(int counter) {
+
+    counter++;
+
+}
+
+void displayCounter (int counter) {
+
+    cout << "Counter: " << counter << endl;
+}
+
+int main () {
+
+    int a, b;
+    int c = 5;
+    int d = 8;
+    float x1 = 3, x2 = 5;
+    float y1 = 2, y2 = 6;
+
+//Global variable
+    int counter = 0;
+
+    cout << "Please enter a whole number:" << endl;
+    cin >> a;
+    cout << "Please enter another whole number:" << endl;
+    cin >> b;
+    
+    addTwoNUmbers (a, b); swapNumbers (c, d); calculateDistance (x1, x2, y1, y2); incrementCounter (counter); incrementCounter (counter); displayCounter (counter); displayCounter (counter);
+
+    return 0;
+}
